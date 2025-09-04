@@ -1,12 +1,12 @@
 {
-    "[development]": {
-        "requires": {
-            "db": {
-                "credentials": {
-                    "database": ":memory:"
-                },
-                "kind": "sqlite"
-            }
-        }
+  "[development]": {
+    "requires": {
+      "db": {
+        "credentials": {
+          "database": ":memory:"
+        },
+        "kind": "sqlite"
+      }
     }
+  }
 }
