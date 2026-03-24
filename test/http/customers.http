@@ -36,6 +36,7 @@ Content-Type: application/json
 }
 
 ###
+# Faz a atualização parcial do recurso, ou seja, somente o campo lastName será atualizado, os demais campos permanecerão com os mesmos valores.
 PATCH http://{{localhost}}/Customers(id='{{id}}')
 Content-Type: application/json
 
