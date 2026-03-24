@@ -1,0 +1,1 @@
+const funcao = (variavel) => console.log(variavel);
