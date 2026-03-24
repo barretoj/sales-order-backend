@@ -54,3 +54,13 @@ PUT http://{{localhost}}/SalesOrderHeaders(id={{id}})
 Content-Type: application/json
 
 {}
+
+###
+# Buscar todos os pedidos maiores ou iguais a 2 milhões
+GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount ge 20000000
+Content-Type: application/json
+
+###
+# Buscar todos os pedidos menores ou iguais a 2 milhões
+GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount le 20000000
+Content-Type: application/json
